@@ -1,0 +1,159 @@
+.header_section{
+
+width: 100%;
+
+background : url('img/banner-bg.jpg');
+
+height:90vh;
+}
+.header_body{
+width: 100%;
+height:90vh;
+position: relative;
+}
+
+.header_content{
+	
+	
+	color: white;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%); 
+	text-align: center;
+}
+
+.header_content h1{
+margin:0;
+padding: 10px 0;
+font-size: 60px;
+font-family: sans-serif;
+font-weight: 700;
+}
+.header_content h4{
+margin:0;
+border-bottom: 2px solid white;
+padding: 10px 0;
+font-size: 25px;
+font-family: sans-serif;
+margin-bottom: 10px;
+}
+.section-heading-spacer{
+
+	width: 200px;
+	border-top: 3px  #f8f8f8;
+	border-bottom: 3px  solid rgba(0, 0, 0, 0.1);
+}
+
+
+.btn{
+	color: black;
+}
+
+.ipad_section, .dog_section , .mobile_section, .footer_section{
+
+background: #f8f8f8;
+padding: 40px 0;
+
+}
+.ipad_body .section-heading-spacer{
+	left:-125px;
+	position: relative;
+}
+.dog_body .section-heading-spacer{
+	left:-125px;
+	position: relative;
+}
+
+.mobile_body .section-heading-spacer{
+	left:-125px;
+	position: relative;
+}
+.dog_section , .footer_section{
+	background: white;
+}
+
+.ipad_body, .dog_body , .mobile_body{
+
+	margin-top: 50px;
+}
+
+.intro_section{
+
+width: 100%;
+
+background : url('img/intro-bg.jpg');
+
+height:30vh;
+}
+
+
+.intro_body{
+width: 100%;
+height:30vh;
+position: relative;
+}
+
+.intro_content{
+	
+	
+	color: white;
+	position:absolute;
+    margin-top:60px;
+    margin-left: 60px;
+}
+.btn_body{
+width: 100%;
+height:30vh;
+position: relative;
+}
+
+.btn_content{
+	
+	
+	color: white;
+	position:absolute;
+    margin-top:78px;
+
+}
+
+
+@media (max-width: 767px) {
+	.header_content h1{
+color:coral;
+font-size: 40px;
+
+}
+
+	.header_content h4{
+
+color:red;
+font-size: 15px;
+}
+
+  .ipad_body, .dog_body, .mobile_body{
+  	text-align: center;
+  }
+.intro_content h1{
+	font-size: 25px;
+	margin-top: -30px;
+}
+
+.btn_content{
+
+margin-top: -45px;
+}
+
+.intro_section{
+	height: 50%;
+}
+
+
+  }
+@media (min-width: 768px) and (max-width: 991px) { 
+
+
+
+
+
+	 }
